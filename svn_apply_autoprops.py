@@ -13,7 +13,8 @@
 
 CMD = 'svn'
 #CMD = 'svk'
-CFG = ['~/.subversion/config',
+CFG = ['/etc/subversion/config',
+       '~/.subversion/config',
        '$APPDATA/Subversion/config']
 
 from __future__ import generators
